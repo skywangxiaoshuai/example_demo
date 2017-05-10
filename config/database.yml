@@ -92,9 +92,15 @@ development:
   database: example_demo
   username: example_demo
   password: 123456
-  # host: www.geyiwu.com
-  # port: 1158
-  # database: crm
-  # username: crm
+  encoding: unicode
+  pool: 5
+
+test:
+  adapter: postgresql
+  host: 192.168.0.15
+  port: 5432
+  database: example_demo
+  username: example_demo
+  password: 123456
   encoding: unicode
   pool: 5
